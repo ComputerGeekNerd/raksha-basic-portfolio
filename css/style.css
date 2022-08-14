@@ -323,6 +323,8 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 800px) {
@@ -478,4 +480,5 @@ header {
 
 .company-img {
     height: 100px;
+    align-self: center;
 }
